@@ -1,0 +1,85 @@
+﻿  Project_3.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\utility(190,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+          and
+          [
+              _Ty1=const float
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(675): message : see reference to function template instantiation 'std::pair<const float,std::string>::pair<_Ty,const char(&)[3],0>(_Other1 &&,_Other2) noexcept(false)' being compiled
+          with
+          [
+              _Ty=double,
+              _Other1=double,
+              _Other2=const char (&)[3]
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xmemory(682): message : see reference to function template instantiation 'std::pair<const float,std::string>::pair<_Ty,const char(&)[3],0>(_Other1 &&,_Other2) noexcept(false)' being compiled
+          with
+          [
+              _Ty=double,
+              _Other1=double,
+              _Other2=const char (&)[3]
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(804): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,double,const char(&)[3]>(_Alloc &,_Objty *const ,double &&,const char (&)[3])' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const float,std::string>,std::_Default_allocator_traits<std::allocator<std::pair<const float,std::string>>>::void_pointer>>,
+              _Ty=std::pair<const float,std::string>,
+              _Objty=std::pair<const float,std::string>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(805): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,double,const char(&)[3]>(_Alloc &,_Objty *const ,double &&,const char (&)[3])' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const float,std::string>,std::_Default_allocator_traits<std::allocator<std::pair<const float,std::string>>>::void_pointer>>,
+              _Ty=std::pair<const float,std::string>,
+              _Objty=std::pair<const float,std::string>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(992): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const float,std::string>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty,const char(&)[3]>(_Alnode &,std::_Tree_node<std::pair<const float,std::string>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&,const char (&)[3])' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const float,std::string>>,
+              _Ty=double,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const float,std::string>,std::_Default_allocator_traits<std::allocator<std::pair<const float,std::string>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(1008): message : see reference to function template instantiation 'std::_Tree_temp_node<std::allocator<std::_Tree_node<std::pair<const float,std::string>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_Tree_temp_node<_Ty,const char(&)[3]>(_Alnode &,std::_Tree_node<std::pair<const float,std::string>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Ty &&,const char (&)[3])' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const float,std::string>>,
+              _Ty=double,
+              _Alnode=std::allocator<std::_Tree_node<std::pair<const float,std::string>,std::_Default_allocator_traits<std::allocator<std::pair<const float,std::string>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(1029): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const float,std::string>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<double,const char(&)[3]>(double &&,const char (&)[3])' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const float,std::string>>,
+              _Kty=float,
+              _Ty=std::string,
+              _Pr=std::greater<float>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xtree(1030): message : see reference to function template instantiation 'std::pair<std::_Tree_node<std::pair<const float,std::string>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Emplace<double,const char(&)[3]>(double &&,const char (&)[3])' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::pair<const float,std::string>>,
+              _Kty=float,
+              _Ty=std::string,
+              _Pr=std::greater<float>
+          ]
+C:\Users\nicho\OneDrive\Documents\data struc\Project_3\Project_3\Project_3.cpp(50): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,std::string>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<double,const char(&)[3]>(double &&,const char (&)[3])' being compiled
+          with
+          [
+              _Kty=float,
+              _Ty=std::string,
+              _Pr=std::greater<float>,
+              _Alloc=std::allocator<std::pair<const float,std::string>>
+          ]
+C:\Users\nicho\OneDrive\Documents\data struc\Project_3\Project_3\Project_3.cpp(50): message : see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<const float,std::string>>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::emplace<double,const char(&)[3]>(double &&,const char (&)[3])' being compiled
+          with
+          [
+              _Kty=float,
+              _Ty=std::string,
+              _Pr=std::greater<float>,
+              _Alloc=std::allocator<std::pair<const float,std::string>>
+          ]
+  Project_3.vcxproj -> C:\Users\nicho\OneDrive\Documents\data struc\Project_3\x64\Debug\Project_3.exe
